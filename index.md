@@ -1,6 +1,6 @@
 # DevOps Malayalam
 
-**Virtual Networks In Cloud**
+**Terraform**
 
 _28 July 21_ 
 

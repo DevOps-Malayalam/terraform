@@ -14,7 +14,7 @@ For provisioning we use terraform, for configuring we use Ansible. <br>
 The 1st operation is refresh which is done by the core engine. It checks according to the request. Then it will Plan and after that it will Apply. These are Day 1 activities <br>
 Configuration or creation will be day 2 activity. We refresh to check whether it is present and also check the state. And it’s decided and at last it will plan and apply. <br>
 
-**State file and Provider**
+**State file and Provider** <br>
 Provider helps us for provisioning, core can’t perform these types of wider activities. Providers of AWS can use the target services using APIs. <br>
 Providers define a set of resource types(EC2 instance) and data source(details about resource). <br>
 Additional file we can see in our tf file is the state file. It captures the real world entity. And when we destroy and apply again, this state file helps in provisioning <br>
